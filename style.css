@@ -1,0 +1,73 @@
+
+        h1{
+           
+       display: flex;
+       justify-content: space-between;
+       background-color:#8cbdb5;
+       padding: 50px;
+       font-size: 30px;
+       font-family:sans-serif;
+       font-weight: 400;
+       color:#ffffff
+        }
+
+        img{
+           border: 5px solid black;
+            border-radius: 40px;
+            display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 25px;
+    width: 200px;
+    font-family: fantasy;
+        }
+        p{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        ol,ul{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            
+        }
+        .grid{
+           display:flex;
+            flex-wrap:wrap;
+            justify-content:space-evenly;
+            margin:40px;
+            border: 2px solid #000000;
+            border-radius: 50px;
+          }
+        body{
+            margin: 0px;
+            background-color:#bae2fc;
+          }
+          a:link{
+              color:white;
+             
+          }
+          a:visited{
+            color:white;
+             
+        }
+        .item:hover{
+            transform:scale(1.2);
+        }
+        
+  .feed{
+      display:flex;
+   justify-content:space-evenly;
+   font-size:30px;
+   color:blue;
+   
+ }
+
+ .chat{
+display:flex;
+font-size:25px;
+background:aquamarine;
+ }
+
